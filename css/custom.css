@@ -2105,3 +2105,571 @@ i.fas.fa-phone {
     width: 100%;
     height: 100%;
 }
+
+
+
+/*--------------------------------------------------------------------
+			================SHOPPING_CARD_PAGE==============
+			
+----------------------------------------------------------------------*/
+
+.shop_page_table{
+    text-align: center;
+}
+.shop_page_table thead tr th{
+    border-bottom: none;
+}
+.shop_page_table th,.shop_page_table td{
+    vertical-align: middle;
+}
+.shop_page_table th{
+    padding: 20px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+}
+.shop_page_table td.prd_img a img{
+     width:130px;
+}
+.shop_page_table td{
+    padding: 20px 20px;
+    width: 130px;
+}
+
+.name_of_prd a {
+    color: #444;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.name_of_prd a:hover {
+    color: #c43b68;
+}
+.prd_price span, .prd_total {
+    color: #313131;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.prd_quantity input {
+    background: #e5e5e5 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    color: #6f6f6f;
+    font-size: 15px;
+    font-weight: normal;
+    height: 40px;
+    padding: 0 5px 0 10px;
+    width: 60px;
+}
+.prd_remove a i {
+    color: #212121;
+    font-size: 24px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+}
+.prd_remove a i:hover{
+    color: #ee393e;
+}
+
+
+
+.buttons_card_area {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+}
+.price_btn_card a{
+    background: #ebebeb none repeat scroll 0 0;
+    color: #3f3f3f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    height: 62px;
+    line-height: 62px;
+    padding: 0 45px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.cc_content{
+    background: #ebebeb none repeat scroll 0 0;
+    padding: 54px 70px;
+}
+.cc_content span{
+    color:#3f3f3fbf;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.cc_in {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+}
+
+.cc_in input {
+    background: #ffffff none repeat scroll 0 0;
+    border: 0 none;
+    height: 56px;
+    padding: 0 30px;
+    width: 100%;
+}
+
+ .cc_in a  {
+        background: #212121 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 56px;
+    line-height: 56px;
+    padding: 0 27px;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}
+
+
+.c_card_total h6 {
+    background: #c43b68 none repeat scroll 0 0;
+    font-size: 14px;
+    font-weight: 500;
+    height: 67px;
+    line-height: 65px;
+    padding: 0 32px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cct_list , .c_order_c_total {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 20px;
+}
+.cct_list ul li {
+    color: #3f3f3f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    list-style: none;
+    padding-bottom: 16px;
+    
+
+}
+.cct_list ul li:last-child{
+    padding:0;
+}
+.cct_desc , .cct_price{
+    padding-left: 0;
+}
+ul.cct_price li {
+    font-weight: 600;
+}
+.c_order_c_total{
+    margin: 0;
+    border-top: 1px solid #ddd;
+    padding-top: 18px;
+}
+.c_order_c_total span{
+   color: #3f3f3f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.payment_btn{
+    margin-top: 50px;
+}
+.payment_btn.price_btn_card a {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.price_btn_card .price-btn:before{
+   background: #212121 none repeat scroll 0 0;
+}
+
+
+/*--------------------------------------------------------------------
+			================WISHLIST_PAGE==============
+			
+----------------------------------------------------------------------*/
+
+.w_shop_page_table th{
+     font-family: 'Old Standard TT', serif ;
+    font-weight: 600;
+    font-size: 14px;
+}
+.price_btn_card.w_price_btn_card a {
+    height: 42px;
+    line-height: 42px;
+}
+.w_prd_quantity span{
+    color: #000; */
+    font-family: 'Old Standard TT', serif ;
+    font-size: 16px;
+    font-weight: 600;
+}
+.wishlist_share {
+    padding: 30px 0 20px;
+}
+.w_s_title{
+    font-family: 'Poppins', sans-serif;
+    color: #313131;
+    font-size: 14px;
+}
+.wishlist_share ul{
+    justify-content: center;
+}
+.wishlist_share ul li{
+    padding:0 2px; 
+}
+.wishlist_share ul li a{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    
+}
+.wishlist_share ul li a i{
+    color:#252525;
+    font-size: 14px;
+}
+.wishlist_share ul li a:hover i{
+    color:#c43b68;
+}
+
+
+/*--------------------------------------------------------------------
+			================CHECKOUT_PAGE==============
+			
+----------------------------------------------------------------------*/
+.card.c_out_card {
+    border-radius: 0;
+    border:0;
+    margin-bottom: 15px;
+    
+}
+.c_out_c_title{
+    height: 65px;
+    line-height: 65px;
+    border:0;
+     background: #f4f4f4;
+     cursor: pointer;
+     
+}
+
+.btn-link.c_out_collapse.focus, .c_out_collapse.btn-link:focus, 
+.btn-link.c_out_collapse.focus, .c_out_collapse.btn-link:hover {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+
+.c_out_collapse{
+     position: relative;
+    padding-left: 50px;
+     font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #666666;
+   
+}
+.c_out_collapse:hover{
+    color: #666666;
+}
+.c_out_collapse span{
+    position: absolute;
+    content: '';
+    width: 46px;
+    height: 46px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.c_out_collapse span:before,
+.c_out_collapse span:after{
+    position: absolute;
+    content: '';
+    left: 50%;
+    top:50%;
+    width: 15px;
+    height: 2px;
+    background:#666666;
+    transform: translate(-50%);
+}
+.c_out_collapse span:after{
+    transition: all .3s ease;
+     transform: translate(-50%) rotate(90deg);
+}
+
+button.btn.btn-link.c_out_collapse[aria-expanded="true"] span:after{
+     transform: translate(-50%) rotate(0deg);
+}
+.c_out_card_body {
+    padding: 20px 5px 35px;
+}
+.checkout_method{}
+.checkout_method_single{}
+.checkout_method_title {
+   color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.checkout_method_title i {
+    padding-right: 13px;
+    font-size: 24px;
+    line-height: 24px;
+}
+.cm_subtitle {
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: #8c8c8c;
+    font-family: 'OldStandardTT';
+}
+
+.single_input label {
+    color: #000;
+    font-weight: 500;
+    font-family: 'Poppins',sans-serif;
+    padding-left: 8px;
+    font-size: 14px;
+}
+.checkout_method_login .single_input{
+    margin-bottom: 20px;
+}
+.checkout_method_login .single_input label{
+    padding-left:0;
+}
+.checkout_method_login .single_input label:before {
+    content: '*';
+    padding-right: 15px;
+    color: #c2a476;
+}
+.checkout_method_login .single_input input{
+    width:100%;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 15px;
+    background: #f6f6f6;
+    border: 1px solid #f6f6f6;
+    border-radius: 0;
+    transition:all .4s ease;
+}
+.checkout_method_login .single_input input:focus,    
+.checkout_method_login .single_input input:active{    
+    background: transparent;
+    border: 1px solid #c43b68 !important; 
+    box-shadow: none !important;
+    
+}
+.checkout_method_login .require {
+    color: #f10;
+    letter-spacing: 1px;
+    font-family: 'Old Standard TT', serif;
+    margin-bottom: 0;
+}
+.checkout_method_login a{
+    color: #333;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    display: flex;
+}
+.card_btn.price-btn.login {
+        background: #222222 none repeat scroll 0 0;
+    margin-top: 20px;
+}
+.card_btn.price-btn.login:before{
+     background: #c43b68 none repeat scroll 0 0;
+}
+
+
+.single_input_cout select,
+.single_input_cout input{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    font-family: "poppins";
+    transition: all 0.3s ease-in-out 0s;
+    border: 1px solid #888;
+   font-size: 14px;
+    border-radius: 0;
+    margin-top: 20px;
+}
+
+.single_input select:focus ,
+.single_input input:focus {    
+    border: 1px solid #c43b68 !important; 
+    box-shadow: none !important;
+    outline: none;
+    
+}
+.shipmethod {
+    margin: 20px 0;
+}
+.shipinfo_title{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.shipinfo p{
+   font-family: 'Poppins', sans-serif;
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+.shipinfo b {
+    padding-right: 5px;
+}
+
+.ship_to_another_add{
+    display: inline-block;
+    font-family: "Poppins";
+    font-size: 16px;
+    color: #666666;
+}
+a.ship_to_another_add i {
+    font-size: 14px;
+    padding-right: 5px;
+}
+.ship_to_another_add:hover{
+    color: #c43b68;
+}
+.ship_to_another_add[aria-expanded="true"] {
+    color: #c43b68;
+}
+.shipmethod_card_body{
+    padding: 0;
+}
+.shipm_single_input {
+  padding: 10px 0 10px 10px;
+}
+.shipm_single_input label {
+    font-family: "Poppins";
+    color: #3333;
+    font-weight: 500;
+        font-size: 16px;
+}
+.shipm_single_input p{
+    font-family: 'Old Standard TT', serif;
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.pinfo_cbody a {
+    display: block;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+.order_details {
+    background: #f4f4f4;
+}
+.order_details_title h5{
+    padding: 30px 15px;
+    border-bottom: 1px solid #ebebeb;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: "poppins";
+    font-size: 16px;
+    font-weight: 600;
+    color: #3f3f3f;
+}
+.order_details_item {
+   padding: 15px 30px;
+}
+.order_details_item_single{
+      display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.odi_content a {
+    font-size: 16px;
+    font-family: "OldStandardTT";
+    letter-spacing: 1px;
+    color: #666;
+    transition: all 0.3s ease-in-out;
+    display: block;
+}
+.odi_content span{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #666666;
+}
+.odi_content_remove i{
+    color:#333;
+}
+.odi_content_remove a:hover i{
+       color: #f10;
+}
+.odi_content_remove a:focus i, .odi_content_remove a:active i {
+    color: #c43b68 !important;
+}
+
+.order_details_count{
+   padding: 15px 30px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+.order_details_count_single, .order_details_total_single {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+.order_details_count_single h5, .ordre_details_total h5 {
+    color: #3f3f3f;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+.order_details_count_single span, .ordre_details_total span {
+    font-weight: 600;
+    font-family: "Poppins";
+    float: left;
+    width: 30%;
+    color: #666666;
+    font-size: 14px;
+}
+.ordre_details_total{
+    padding: 30px 30px;
+    border-bottom: 1px solid #ebebeb;
+}

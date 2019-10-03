@@ -324,7 +324,7 @@
                         <ol class="breadcrumb pr_breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                             <i class="fas fa-chevron-right"></i>
-                            <li class="breadcrumb-item active" aria-current="page"> Shopping Cart</li>
+                            <li class="breadcrumb-item active" aria-current="page">Wishlist</li>
                         </ol>
                     </nav>
                 </div>
@@ -339,99 +339,67 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="table-responsive">
-                        <table class="table table-bordered shop_page_table">
+                        <table class="table table-bordered shop_page_table w_shop_page_table">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="product">PRODUCTS</th>
-                                    <th scope="col">NAME OF PRODUCTS</th>
-                                    <th scope="col">PRICE</th>
-                                    <th scope="col">QUANTITY</th>
-                                    <th scope="col">TOTAL</th>
                                     <th scope="col">REMOVE</th>
+                                    <th scope="col" class="product">Image</th>
+                                    <th scope="col">NAME OF PRODUCTS</th>
+                                    <th scope="col">Unit Price</th>
+                                    <th scope="col">Stock Status</th>
+                                    <th scope="col">Add To Cart</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
+                                   <td class="prd_remove">
+                                        <a href="#"><i class="fas fa-times"></i></a>
+                                    </td>
                                     <td class="prd_img">
                                         <a href="#"><img src="images/product1.jpg" class="img-fluid" alt="product1"></a>
                                     </td>
                                     <td class="name_of_prd">
-                                        <a href="#">New Dress For Sunday</a>
-                                        <ul class="nav product_card_prize">
-                                            <li class="pro_prize">$82.5</li>
-                                            <li>$75.2</li>
-                                        </ul>
+                                        <a href="#">Vestibulum suscipit</a>
                                     </td>
                                     <td class="prd_price"><span>£165.00</span></td>
-                                    <td class="prd_quantity">
-                                        <input type="number" value="1">
+                                    <td class="prd_quantity w_prd_quantity">
+                                        <span>In Stock</span>
                                     </td>
-                                    <td class="prd_total">£165.00</td>
-                                    <td class="prd_remove">
-                                        <a href="#"><i class="fas fa-trash"></i></a>
+                                    <td class="prd_total">
+                                        <div class="price_btn_card w_price_btn_card"><a href="#" class="price-btn"> Add to Cart</a></div>
                                     </td>
                                 </tr>
+                                
                                 <tr>
+                                   <td class="prd_remove">
+                                        <a href="#"><i class="fas fa-times"></i></a>
+                                    </td>
                                     <td class="prd_img">
                                         <a href="#"><img src="images/product4.jpg" class="img-fluid" alt="product1"></a>
                                     </td>
                                     <td class="name_of_prd">
-                                        <a href="#">New Dress For Sunday</a>
-                                        <ul class="nav product_card_prize">
-                                            <li class="pro_prize">$82.5</li>
-                                            <li>$75.2</li>
-                                        </ul>
+                                        <a href="#">Vestibulum suscipit</a>
                                     </td>
                                     <td class="prd_price"><span>£165.00</span></td>
-                                    <td class="prd_quantity">
-                                        <input type="number" value="1">
+                                    <td class="prd_quantity w_prd_quantity">
+                                        <span>In Stock</span>
                                     </td>
-                                    <td class="prd_total">£165.00</td>
-                                    <td class="prd_remove">
-                                        <a href="#"><i class="fas fa-trash"></i></a>
+                                    <td class="prd_total">
+                                        <div class="price_btn_card w_price_btn_card"><a href="#" class="price-btn"> Add to Cart</a></div>
                                     </td>
                                 </tr>
-
                                 <tr>
-                                    <td class="prd_img">
-                                        <a href="#"><img src="images/product2.jpg" class="img-fluid" alt="product1"></a>
-                                    </td>
-                                    <td class="name_of_prd">
-                                        <a href="#">New Dress For Sunday</a>
-                                        <ul class="nav product_card_prize">
-                                            <li class="pro_prize">$82.5</li>
-                                            <li>$75.2</li>
-                                        </ul>
-                                    </td>
-                                    <td class="prd_price"><span>£165.00</span></td>
-                                    <td class="prd_quantity">
-                                        <input type="number" value="1">
-                                    </td>
-                                    <td class="prd_total">£165.00</td>
-                                    <td class="prd_remove">
-                                        <a href="#"><i class="fas fa-trash"></i></a>
-                                    </td>
-                                </tr>
-
-
-                                <tr>
-                                    <td class="prd_img">
-                                        <a href="#"><img src="images/product10.jpg" class="img-fluid" alt="product1"></a>
-                                    </td>
-                                    <td class="name_of_prd">
-                                        <a href="#">New Dress For Sunday</a>
-                                        <ul class="nav product_card_prize">
-                                            <li class="pro_prize">$82.5</li>
-                                            <li>$75.2</li>
-                                        </ul>
-                                    </td>
-                                    <td class="prd_price"><span>£165.00</span></td>
-                                    <td class="prd_quantity">
-                                        <input type="number" value="1">
-                                    </td>
-                                    <td class="prd_total">£165.00</td>
-                                    <td class="prd_remove">
-                                        <a href="#"><i class="fas fa-trash"></i></a>
+                                    <td colspan="6">
+                                        <div class="wishlist_share">
+                                            <h4 class="w_s_title">Share on:</h4>
+                                                <ul class="nav">
+                                                    <li><a href="#"><i class="fas fa-rss"></i></a></li>
+                                                     <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                                     <li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+                                                     <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                                     <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                                </ul>
+                                        </div>
                                     </td>
                                 </tr>
                             </tbody>
@@ -440,61 +408,6 @@
                     <!--end of .table-responsive-->
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="buttons_card_area">
-                        <div class="price_btn_card"><a href="#" class="price-btn">Continue Shopping</a></div>
-                        <div class="checkout_btn price_btn_card">
-                            <a href="#" class="price-btn">update</a>
-                            <a href="#" class="price-btn mr-4">checkout</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--Start COUPON_CODE_AREA-->
-            <div class="coupon_code_area">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="cc_content">
-                            <span>enter your discount code</span>
-                            <div class="cc_in">
-                                <input type="text" placeholder="">
-                                <a href="#" class="cc_btn price-btn">enter</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 offset-lg-1">
-                        <div class="c_card_total">
-                            <h6>cart total</h6>
-                            <div class="cct_list">
-                                <ul class="cct_desc">
-                                    <li>cart total</li>
-                                    <li>tax</li>
-                                    <li>shipping</li>
-                                </ul>
-                                <ul class="cct_price">
-                                    <li>$909.00</li>
-                                    <li>$9.000</li>
-                                    <li>0</li>
-                                </ul>
-                            </div>
-                            <div class="c_order_c_total">
-                                <span>order total</span>
-                                <span>$918.00</span>
-                            </div>
-                        </div>
-
-                        <div class="payment_btn price_btn_card">
-                            <a href="#" class="price-btn mb-3">payment</a>
-                            <a href="#" class="cc_btn price-btn">Continue Shopping</a>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--end of COUPON_CODE_AREA-->
         </div>
     </section>
     <!--  End  Pr_grid_section  -->
@@ -662,6 +575,4 @@
     <script src="https://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/wow.min.js"></script>
-</body>
-
-</html>
+</body></html>

@@ -73,6 +73,12 @@
         margin-left: 0px;
         margin-top: 40px;
     }
+    
+    
+    /*    ================ Checkout_PAGE==============*/
+    .order_details_item {
+        padding: 15px 15px;
+    }
 }
 
 /* ------ end max1280px ------- */
@@ -382,6 +388,24 @@
     .b_cmt_ft.contact_form_box textarea {
         padding: 18px 20px;
     }
+    
+     /*    ================ SHOP_PAGE==============*/
+    .shop_page_table th {
+        font-size: 14px;
+        padding: 12px 8px;
+    }
+    .name_of_prd a {
+        font-size: 14px;
+    }
+    .c_card_total {
+    margin-top: 30px;
+}
+       /*    ================ Checkout_PAGE==============*/
+    .order_details {
+    background: #f4f4f4;
+    margin: 40px 0;
+}
+    
 }
 
 /* ------ end max992px ------- */
@@ -542,6 +566,27 @@
     .b_cmt_ft.contact_form_box textarea {
         min-height: 160px;
     }
+    
+    /*    ================ SHOP_PAGE==============*/
+    .table-responsive{
+        border:1px solid #ddd;
+    }
+    .buttons_card_area {
+        display: block;
+    }
+    .price_btn_card a {
+    float: none;
+}
+    .buttons_card_area {
+    margin: 40px 0;
+    }
+    .price_btn_card a {
+    font-size: 12px;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 20px;
+}
+    
 }
 
 /* ------ end max767.98px ------- */
@@ -657,7 +702,39 @@
     .contact_form {
         margin-top: 45px;
     }
+    
+    /*    ================ SHOP_PAGE==============*/
+    
+    .cc_content {
+    background: #ebebeb none repeat scroll 0 0;
+    padding: 40px 20px;
+}
+    
+    
+           /*    ================ Checkout_PAGE==============*/
+    .order_details {
+    background: #f4f4f4;
+    margin: 40px 0;
+}
+    .c_out_collapse {
+    padding-left: 40px;
+    font-size: 14px;
 
+}
+    .c_out_collapse span {
+    width: 36px;
+    height: 36px;
+}
+    .c_out_collapse span:before, .c_out_collapse span:after{
+        width:12px;
+    }
+    .single_input.fast_c_out {
+    display: flex;
+}
+    .single_input.fast_c_out input {
+    margin-top: 5px;
+}
+    
 }
 
 
