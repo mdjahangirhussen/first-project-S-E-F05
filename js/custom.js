@@ -65,7 +65,7 @@ $(document).ready(function () {
         loop: true,
         responsiveClass: true,
         //        dots: false,
-        nav: true,
+        nav: false,
         autoplay: false,
         autoplayTimeout: 4000,
         smartSpeed: 1000,
