@@ -24,18 +24,6 @@ CSS INDEX
 16. Preloader-css
 -----------------------------------------------------------------------------------*/
 
-
-
-/*
-
-Table of contents Blog Single page
-
-    1. Banner Section
-    2. blog Left Content Section
-    3. Blog Right content Section
-*/
-
-
 /*-----------------
 1. Google font
 ------------------*/
@@ -111,7 +99,7 @@ nav#primary-menu {
     width: 220px;
     z-index: 999;
     -webkit-animation: 200ms ease 0s normal none 1 running fadeInUp;
-    animation: 200ms ease 0s normal none 1 running fadeInUp;
+
 
 }
 
@@ -334,11 +322,9 @@ span.shopping-cart-content {
     width: 100%;
     z-index: 9999;
     -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-    animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
     background: rgba(246, 246, 248, 0.9) none repeat scroll 0 0;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    margin: 0 auto;
-}
+    margin: 0 auto;}
 
 .md-header-section.header-section {
     display: none;
@@ -366,7 +352,7 @@ span.shopping-cart-content {
 }
 
 .owl-item.active .slider-content h2 {
-    animation: 800ms ease-in-out 0s normal none 1 running bounceInDown;
+    -webkit-animation: 800ms ease-in-out 0s normal none 1 running bounceInDown;
 }
 
 .slider-content h1 {
@@ -380,11 +366,11 @@ span.shopping-cart-content {
 }
 
 .owl-item.active .slider-content h1 {
-    animation: 2000ms ease-in-out 0s normal none 1 running fadeInUp;
+     -webkit-animation: 2000ms ease-in-out 0s normal none 1 running fadeInUp;
 }
 
 .owl-item.active .slider_img {
-    animation: 1900ms ease-in-out 0s normal none 1 running bounceInRight;
+     -webkit-animation: 1900ms ease-in-out 0s normal none 1 running bounceInRight;
 }
 
 .btn_shop_now {
@@ -404,7 +390,7 @@ span.shopping-cart-content {
 
 .owl-item.active .slider-content .btn_shop_now {
 
-    animation: 1600ms ease-in-out 0s normal none 1 running bounceInDown;
+     -webkit-animation: 1600ms ease-in-out 0s normal none 1 running bounceInDown;
 }
 
 .btn_shop_now:hover {
@@ -543,7 +529,7 @@ category_product_area_css
 }
 
 .product_card:hover .product_card_hover li:nth-child(1) {
-    animation: fadeInRight 300ms ease-in-out 0s;
+     -webkit-animation: fadeInRight 300ms ease-in-out 0s;
     opacity: 1;
 }
 
@@ -553,7 +539,7 @@ category_product_area_css
 }
 
 .product_card:hover .product_card_hover li:nth-child(3) {
-    animation: fadeInRight 700ms ease-in-out 0s;
+     -webkit-animation: fadeInRight 700ms ease-in-out 0s;
     opacity: 1;
 }
 
@@ -979,7 +965,6 @@ ul.best_product_prize li.pro_prize {
 
 .scrolltop:hover i {
     -webkit-animation: 800ms linear 0s normal none infinite running fadeOutUp;
-    animation: 800ms linear 0s normal none infinite running fadeOutUp;
 
 }
 
@@ -1966,8 +1951,6 @@ select.slect_size:focus {
     margin: 45px 0;
 }
 
-.b_cmt_form_content {}
-
 .b_cmt_form_content input {
     border: 1px solid #e2e2e2;
     color: #666666;
@@ -2318,7 +2301,7 @@ ul.cct_price li {
     line-height: 42px;
 }
 .w_prd_quantity span{
-    color: #000; */
+    color: #000;
     font-family: 'Old Standard TT', serif ;
     font-size: 16px;
     font-weight: 600;
