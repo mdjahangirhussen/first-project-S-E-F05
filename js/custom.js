@@ -1,6 +1,7 @@
 $(document).ready(function () {
     "use strict";
 
+    
 /*============================================
 	* Author		: # name#
 	* Template Name : name | HTML Template
@@ -26,11 +27,12 @@ $(document).ready(function () {
     16 Gmaps.js
 
 ========================================*/
+
     //-------- 0.1 WoW Js --------
     new WOW().init({
 
     });
-    
+          
     // -------- 0.3 Banner-silder --------
 
     $('.banner_carousel').owlCarousel({
