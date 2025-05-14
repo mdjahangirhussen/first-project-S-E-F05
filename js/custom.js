@@ -9,7 +9,7 @@ $(document).ready(function () {
 	
 ==============================================
 *========== TABLE OF CONTENTS ================
-
+    0.0 current year
     0.1 WoW js 
     0.2 Preloader Js
 	0.3 Banner-silder
@@ -28,6 +28,9 @@ $(document).ready(function () {
 
 ========================================*/
 
+//-------- 0.0   Get the current year dynamically --------
+  document.getElementById("year").textContent = new Date().getFullYear();
+  
     //-------- 0.1 WoW Js --------
     new WOW().init({
 
@@ -227,3 +230,4 @@ $(document).ready(function(){
             animation: google.maps.Animation.BOUNCE
 
         });
+
